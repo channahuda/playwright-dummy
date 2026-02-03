@@ -4,7 +4,7 @@
 npx playwright test 
 
 ### To generate reports
-npx allure generate allure-results --clean -o allure-report
+npx allure generate allure-results --clean -o allure-report<br>
 npx allure open allure-report
 
 ### To generate excel
