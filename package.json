@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "export:excel": "npx ts-node export-allure-to-excel.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.58.1",
-    "@types/node": "^25.2.0"
+    "@types/node": "^25.2.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }
